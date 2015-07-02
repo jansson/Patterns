@@ -11,7 +11,7 @@ public class ExampleHandler : Handler<object>
 		}
 		else
 		{
-			return await Next(context);
+			await Next(context);
 		}
 	}
 	
